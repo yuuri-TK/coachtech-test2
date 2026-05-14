@@ -1,0 +1,91 @@
+.admin {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.admin-title {
+    text-align: center;
+    color: #8B7969;
+    margin: 40px 0;
+    font-size: 32px;
+}
+
+.search-form {
+    margin-bottom: 30px;
+}
+
+.search-form form {
+    display: flex;
+    gap: 10px;
+}
+
+.search-form input,
+.search-form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table th {
+    background: #8B7969;
+    color: white;
+    padding: 15px;
+}
+
+.admin-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.admin-top {
+    margin: 20px 0;
+}
+
+.export-btn {
+    padding: 8px 20px;
+    border: none;
+    background: #e1dbd699;
+    color: #8b7969;
+    cursor: pointer;
+}
+
+.detail-btn {
+    padding: 6px 16px;
+    border: 1px solid #d9c6b5;
+    background: #f9f9f9;
+    color: #d9c6b5;
+    cursor: pointer;
+}
+
+.reset-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #d9c6b5;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.reset-btn:hover {
+    opacity: 0.8;
+}
+
+.pagination {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.search-date {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    background: #f8f8f8;
+    color: #8b7969;
+    font-size: 14px;
+    cursor: pointer;
+}

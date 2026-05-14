@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #fff;
+}
+
+.thanks {
+    position: relative;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.thanks::before {
+    content: "Thank you";
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 180px;
+    font-weight: bold;
+
+    color: rgba(139, 121, 105, 0.08);
+
+    white-space: nowrap;
+
+    z-index: 0;
+}
+
+.thanks__content {
+    position: relative;
+    z-index: 1;
+
+    text-align: center;
+}
+
+.thanks__message {
+    color: #8b7969;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.thanks__button {
+    display: inline-block;
+
+    padding: 10px 40px;
+
+    background: #8b7969;
+    color: #fff;
+
+    text-decoration: none;
+
+    font-size: 14px;
+}
